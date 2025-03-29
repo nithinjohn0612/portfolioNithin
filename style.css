@@ -98,3 +98,22 @@ footer .social-icons{
 .social-icons a:active{
     color: #004085;
 }
+
+/* Media Queries  for responsive layout*/
+@media (max-width: 768px) {
+    .main{
+        padding: 15px;
+    }
+   
+    .mywork{
+        grid-template-columns: 1fr;
+    }
+    .mywork img{
+        width: 100%;
+        height: auto;
+    }
+    nav{
+        position: static;
+        margin-bottom: 2rem;
+    }
+   
