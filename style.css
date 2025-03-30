@@ -12,6 +12,7 @@ body{
 
 h1,h2,h3{
     color: #333;
+    font-weight: 300;
 }
 
 h1{
@@ -38,17 +39,30 @@ a{
 a:hover{
     text-decoration: underline;
 }
-a:visited{
-    color: #0056b3;
-}
-a:active{
-    color: #004085;
-}
+
 
 .main{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 2 rem;
+}
+
+nav{
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav li{
+    margin: 1 rem;
 }
 
 .mywork{
@@ -116,4 +130,4 @@ footer .social-icons{
         position: static;
         margin-bottom: 2rem;
     }
-   
+}
