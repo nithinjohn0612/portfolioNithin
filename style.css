@@ -46,7 +46,7 @@ header{
    justify-content: center;
    align-items: flex-start;
    position: relative;
-   height: 50vh;
+   height: 40vh;
    overflow: hidden;
     
 }
@@ -80,11 +80,22 @@ nav a{
     transition: background-color 0.3s ease;
 }
 
-.mywork{
+.work{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
     margin: 2rem 0;
+}
+
+.work-item{
+    background-color: #fff;
+    height:300px;
+
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
 }
 
 
